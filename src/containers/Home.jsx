@@ -1,7 +1,7 @@
 import React from 'react';
-import HolaMundo from '../components/HolaMundo';
+import BotonGif from '../components/BotonGif.component';
 const Home = () => {
-  return <HolaMundo />;
+  return <BotonGif verMasIcono={false} btnDia={true} />;
 };
 
 export default Home;

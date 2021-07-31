@@ -1,0 +1,62 @@
+@import '../lib/utils/theme/dia/Colores.dia.scss';
+@import '../lib/utils/theme/noche/Colores.noche.scss';
+@import '../lib/utils/FontZise.scss';
+@import '../lib/utils/Medidas.scss';
+
+.botonGif__estilo--global {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $medida-extra-larga;
+  height: $medida-extra-larga;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  @include font-size($font-size-grande - 5);
+
+  &:hover {
+    .colorIcono--noche {
+      path {
+        stroke: $color-base-0;
+      }
+    }
+  }
+}
+
+.botonGif__verMas--dia {
+  background-color: $dia-color-primario;
+}
+
+.botonGif__verMas--noche {
+  background-color: $noche-color-primario-40;
+}
+
+.botonGif__descarga--dia {
+  background-color: $dia-color-primario-10;
+}
+
+.botonGif__descarga--noche {
+  background-color: $noche-color-primario;
+}
+
+.botonGif__verMas--dia:hover,
+.botonGif__descarga--dia:hover {
+  background-color: $dia-color-primario-20;
+}
+
+.botonGif__verMas--noche:hover,
+.botonGif__descarga--noche:hover {
+  background-color: $noche-color-primario-20;
+}
+
+.colorIcono--dia {
+  path {
+    stroke: $color-base-0;
+  }
+}
+
+.colorIcono--noche {
+  path {
+    stroke: $color-base-1;
+  }
+}
