@@ -1,7 +1,7 @@
 import React from 'react';
-import GrupoBotonesGif from '../components/grupoBotonesGif.component';
+import TarjetaGift from '../components/TarjetaGif.component';
 const Home = () => {
-  return <GrupoBotonesGif verMasIcono={false} btnDia={true} />;
+  return <TarjetaGift />;
 };
 
 export default Home;

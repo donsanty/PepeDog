@@ -1,0 +1,20 @@
+@import '../lib/utils/theme/dia/Colores.dia.scss';
+@import '../lib/utils/theme/noche/Colores.noche.scss';
+@import '../lib/utils/Medidas.scss';
+
+.tarjetaGift__contenedor {
+  display: flex;
+  align-items: flex-end;
+  width: 250px;
+  height: 265px;
+  border-top-left-radius: $medida-pequena;
+  border-top-right-radius: $medida-pequena;
+}
+
+.tarjeta--dia {
+  border: 4px solid $dia-color-primario-30;
+}
+
+.tarjeta--noche {
+  border: 4px solid $noche-color-primario-50;
+}
