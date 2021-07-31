@@ -50,12 +50,12 @@ module.exports = {
         test: /\.(svg|png|jpg|gif)$/,
         use: [
           {
-            'loader': 'file-loader',
+            loader: 'file-loader',
             options: {
-              name: 'assets/[hash].[ext]'
-            }
-          }
-        ]
+              name: 'assets/[hash].[ext]',
+            },
+          },
+        ],
       },
     ],
   },
