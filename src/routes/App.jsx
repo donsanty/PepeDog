@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from '../containers/Home';
 import NotFound from '../containers/NotFound';
-import '../assets/styles/components/Normalize.scss';
+import '../assets/styles/lib/App.scss';
 const App = () => {
   return (
     <BrowserRouter>
