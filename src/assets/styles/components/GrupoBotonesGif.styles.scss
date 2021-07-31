@@ -1,0 +1,11 @@
+@import '../lib/utils/Medidas.scss';
+
+.grupoBotones__contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: $medida-extra-larga;
+  padding-inline: $medida-extra-grnade;
+  margin-bottom: $medida-normal;
+}

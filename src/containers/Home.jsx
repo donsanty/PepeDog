@@ -1,7 +1,7 @@
 import React from 'react';
-import HolaMundo from '../components/HolaMundo';
+import TarjetaGift from '../components/TarjetaGif.component';
 const Home = () => {
-  return <HolaMundo />;
+  return <TarjetaGift />;
 };
 
 export default Home;
